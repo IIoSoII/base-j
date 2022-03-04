@@ -33,3 +33,9 @@ build/
 .vscode/
 
 /src/main/webapp/app/
+
+/src/main/my-app/dist/
+
+/src/main/my-app/node_modules/
+
+/src/main/my-app/.idea/
