@@ -32,6 +32,7 @@ build/
 ### VS Code ###
 .vscode/
 
+### ANGULAR  ###
 /src/main/webapp/app/
 
 /src/main/my-app/dist/
