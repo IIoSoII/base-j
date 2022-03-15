@@ -106,7 +106,7 @@
 							<executable>ng</executable>
 							<arguments>
 								<argument>build</argument>
-								<argument>--base-href=/baseWeb/app/</argument>
+								<argument>--base-href=/baseWeb/</argument>
 							</arguments>
 						</configuration>
 						<goals>
