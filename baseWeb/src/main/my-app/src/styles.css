@@ -31,5 +31,11 @@
     font-size: 3.5rem;
   }
 }
+.header {
+  min-height: 150px;
+}
 
-
+.container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+}
