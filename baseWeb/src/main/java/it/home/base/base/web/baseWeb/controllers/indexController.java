@@ -2,11 +2,12 @@ package it.home.base.base.web.baseWeb.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-/*
-@Controller
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
 public class indexController {
-    @RequestMapping(value = "/")
+    @RequestMapping(value = "/api")
     public String index() {
-        return "index";
+        return "index xfgs";
     }
-}*/
+}

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {EsbServiceService} from "../services/esb-service.service";
 
 @Component({
   selector: 'app-main',
@@ -6,10 +7,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./main.component.css']
 })
 export class MainComponent implements OnInit {
+  res: any;
 
-  constructor() { }
+  constructor(private service: EsbServiceService) { }
 
   ngOnInit(): void {
+    this.res = this.service.getResponse();
   }
 
 }
