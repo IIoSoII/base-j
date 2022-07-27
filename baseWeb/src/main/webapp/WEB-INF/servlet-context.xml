@@ -21,45 +21,13 @@
             <value>.html</value>
         </property>
     </bean>
+
     <!--
-      <mvc:view-controller path="/" view-name="forward:/app/index.html" />
-
-        <bean class="org.springframework.web.servlet.view.json.MappingJackson2JsonView" />
-
-            <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-                <property name="prefix">
-                    <value>/views/</value>
-                </property>
-                <property name="suffix">
-                    <value>.jsp</value>
-                </property>
-            </bean>
-            <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
-                <property name="maxUploadSize" value="30720000" />
-            </bean>
-                -->
-    <!--
-    <util:properties id="datasourceProperties" location="file:///opt/extc/j/config/datasource.properties" />
-    <util:properties id="extcProperties" location="file:///opt/extc/j/config/extc.properties" />
-
-
-        <mvc:resources mapping="/resources/**" location="/resources/" />
-
-        <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-            <property name="prefix">
-                <value>/views/</value>
-            </property>
-            <property name="suffix">
-                <value>.jsp</value>
-            </property>
-        </bean>
+    <util:properties id="datasourceProperties" location="file:///config/datasource.properties" />
+    <util:properties id="webAppProperties" location="file:///opt/config/webApp.properties" />
 
         <mvc:interceptors>
 
         </mvc:interceptors>
     -->
-
-
-
-
 </beans>

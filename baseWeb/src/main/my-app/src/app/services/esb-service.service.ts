@@ -14,6 +14,12 @@ export class EsbServiceService {
       this.res = data;
       }
     )
+
+    this.http.get('http://localhost:8080/baseWeb/api').subscribe(data => {
+        console.log(" ------------ ")
+        console.log(data);
+      }
+    )
     return this.res;
   }
 }
