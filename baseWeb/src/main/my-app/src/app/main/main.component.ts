@@ -13,6 +13,7 @@ export class MainComponent implements OnInit {
 
   ngOnInit(): void {
     this.res = this.service.getResponse();
+    this.service.getBlocco();
   }
 
 }

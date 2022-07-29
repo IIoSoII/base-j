@@ -22,4 +22,12 @@ export class EsbServiceService {
     )
     return this.res;
   }
+
+  getBlocco(){
+    this.http.get('http://localhost:8080/baseWeb/blocco').subscribe(data => {
+        console.log(" ------------ blocco --------------")
+        console.log(data);
+      }
+    )
+  }
 }
